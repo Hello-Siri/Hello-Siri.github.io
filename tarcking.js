@@ -3,6 +3,7 @@
 // Create tracking.js file in your repository and add this code
 
 // Initialize tracking when the DOM is fully loaded
+console.log("Tracking script loaded!");
 document.addEventListener('DOMContentLoaded', function() {
     // Track page view when the page loads
     logEvent('view', 'page', document.title);
